@@ -16,7 +16,7 @@ import os
 import dj_database_url
 
 DATABASES = {
-    'default': dj_database_url.config(default=os.environ.get('postgresql://postgres:123@host:5432/backend-db'))
+    'default': dj_database_url.config(default=os.environ.get('postgresql://postgres:123@host:5432/backend_db'))
 }
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
